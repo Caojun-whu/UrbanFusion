@@ -291,7 +291,7 @@ Data for the year 2021 is available on [OSF](https://osf.io/zyaqn).
 This dataset includes spatial crime statistics for downstream tasks.
 
 **Urban Perception**  
-The PP2-M dataset can be found on [Hugging Face 🤗](https://huggingface.co/datasets/DominikM198/UrbanFusion).  
+The PP2-M dataset can be found on [Hugging Face 🤗](https://huggingface.co/datasets/DominikM198/PP2-M).
 This dataset includes visual and perceptual data from urban scenes.
 
 **ZIP Code Tasks**  
