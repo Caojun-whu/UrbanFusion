@@ -1,0 +1,9 @@
+{
+    "SatCLIPL100trained_1": {
+        "date": "2025-08-05_15-29-20",
+        "modalities": ["1"],
+        "modalities_name": ["RS"],
+        "epoch": 400,
+        "data_loaders": [1]
+    }
+}

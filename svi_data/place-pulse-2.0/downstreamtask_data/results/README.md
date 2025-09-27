@@ -1,0 +1,1 @@
+This directory contains all the configurations for the downstream tasks. Results are also saved here.

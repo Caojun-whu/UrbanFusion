@@ -1,0 +1,181 @@
+{
+  "UrbanFusionV2_1": {
+    "date": "2025-07-23_13-41-49",
+    "epoch": 400,
+    "data_loaders": [
+      1
+    ],
+    "modality_ids": {
+      "Percent_Person_WithHighCholesterol": [
+        "0"
+      ],
+      "Percent_Person_WithPhysicalHealthNotGood": [
+        "0_1_3"
+      ],
+      "Percent_Person_WithStroke": [
+        "0_3"
+      ],
+      "Percent_Person_BingeDrinking": [
+        "0_3"
+      ],
+      "Percent_Person_PhysicalInactivity": [
+        "0_1_3"
+      ],
+      "Percent_Person_ReceivedAnnualCheckup": [
+        "0_3_4"
+      ],
+      "Percent_Person_WithCancerExcludingSkinCancer": [
+        "0_1_3"
+      ],
+      "Percent_Person_WithDiabetes": [
+        "0_3"
+      ],
+      "Percent_Person_WithMentalHealthNotGood": [
+        "0_1_3"
+      ],
+      "Percent_Person_WithCoronaryHeartDisease": [
+        "0_3_4"
+      ],
+      "Percent_Person_WithHighBloodPressure": [
+        "0_3_4"
+      ],
+      "Percent_Person_ReceivedCholesterolScreening": [
+        "0_1_4"
+      ],
+      "Percent_Person_ReceivedDentalVisit": [
+        "0_1_3"
+      ],
+      "Percent_Person_WithAsthma": [
+        "0_1_3"
+      ],
+      "Percent_Person_WithChronicKidneyDisease": [
+        "0_3_4"
+      ],
+      "Percent_Person_WithArthritis": [
+        "0_3"
+      ],
+      "Percent_Person_WithChronicObstructivePulmonaryDisease": [
+        "0_3"
+      ],
+      "Percent_Person_18OrMoreYears_WithHighBloodPressure_ReceivedTakingBloodPressureMedication": [
+        "0_1_4"
+      ],
+      "Percent_Person_Obesity": [
+        "0_1_3"
+      ],
+      "Percent_Person_SleepLessThan7Hours": [
+        "0_1_3"
+      ],
+      "Percent_Person_Smoking": [
+        "0_1_3"
+      ],
+      "Median_Income_Household": [
+        "0_2_3"
+      ],
+      "Median_HomeValue_HousingUnit_OccupiedHousingUnit_OwnerOccupied": [
+        "0_2"
+      ],
+      "night_lights_log10": [
+        "0_1"
+      ],
+      "population_density_log10": [
+        "0_2_4"
+      ],
+      "poverty_rate": [
+        "0_1_3"
+      ],
+      "tree_cover": [
+        "0_4"
+      ],
+      "elevation": [
+        "0"
+      ]
+    },
+    "modality_names_per_target": {
+      "Percent_Person_WithHighCholesterol": [
+        "SVI+RS+OSM+POI"
+      ],
+      "Percent_Person_WithPhysicalHealthNotGood": [
+        "RS+POI"
+      ],
+      "Percent_Person_WithStroke": [
+        "SVI+RS+POI"
+      ],
+      "Percent_Person_BingeDrinking": [
+        "SVI+RS+POI"
+      ],
+      "Percent_Person_PhysicalInactivity": [
+        "RS+POI"
+      ],
+      "Percent_Person_ReceivedAnnualCheckup": [
+        "SVI+RS"
+      ],
+      "Percent_Person_WithCancerExcludingSkinCancer": [
+        "RS+POI"
+      ],
+      "Percent_Person_WithDiabetes": [
+        "SVI+RS+POI"
+      ],
+      "Percent_Person_WithMentalHealthNotGood": [
+        "RS+POI"
+      ],
+      "Percent_Person_WithCoronaryHeartDisease": [
+        "SVI+RS"
+      ],
+      "Percent_Person_WithHighBloodPressure": [
+        "SVI+RS"
+      ],
+      "Percent_Person_ReceivedCholesterolScreening": [
+        "RS+OSM"
+      ],
+      "Percent_Person_ReceivedDentalVisit": [
+        "RS+POI"
+      ],
+      "Percent_Person_WithAsthma": [
+        "RS+POI"
+      ],
+      "Percent_Person_WithChronicKidneyDisease": [
+        "SVI+RS"
+      ],
+      "Percent_Person_WithArthritis": [
+        "SVI+RS+POI"
+      ],
+      "Percent_Person_WithChronicObstructivePulmonaryDisease": [
+        "SVI+RS+POI"
+      ],
+      "Percent_Person_18OrMoreYears_WithHighBloodPressure_ReceivedTakingBloodPressureMedication": [
+        "RS+OSM"
+      ],
+      "Percent_Person_Obesity": [
+        "RS+POI"
+      ],
+      "Percent_Person_SleepLessThan7Hours": [
+        "RS+POI"
+      ],
+      "Percent_Person_Smoking": [
+        "RS+POI"
+      ],
+      "Median_Income_Household": [
+        "SVI+POI"
+      ],
+      "Median_HomeValue_HousingUnit_OccupiedHousingUnit_OwnerOccupied": [
+        "SVI+OSM+POI"
+      ],
+      "night_lights_log10": [
+        "RS+OSM+POI"
+      ],
+      "population_density_log10": [
+        "SVI+OSM"
+      ],
+      "poverty_rate": [
+        "RS+POI"
+      ],
+      "tree_cover": [
+        "SVI+RS+OSM"
+      ],
+      "elevation": [
+        "SVI+RS+OSM+POI"
+      ]
+    }
+  }
+}

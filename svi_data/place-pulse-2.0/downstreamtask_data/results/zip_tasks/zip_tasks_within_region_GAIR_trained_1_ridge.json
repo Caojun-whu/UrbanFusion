@@ -1,0 +1,9 @@
+{
+    "GAIRtrained_1": {
+        "date": "2025-06-19_10-34-36",
+        "modalities": ["0","1","2","3","4","5","6"],
+        "modalities_name": ["Coords", "SV", "RS", "SV+RS", "SV+Coords", "RS+Coords", "SV+RS+Coords"],
+        "epoch": 400,
+        "data_loaders": [0]
+    }
+}

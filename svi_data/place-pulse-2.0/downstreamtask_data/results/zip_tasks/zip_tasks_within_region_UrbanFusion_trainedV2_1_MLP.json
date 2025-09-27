@@ -1,0 +1,235 @@
+{
+  "UrbanFusionV2_1": {
+    "date": "2025-07-23_13-41-49",
+    "epoch": 400,
+    "data_loaders": [
+      0
+    ],
+    "modality_ids": {
+      "Percent_Person_WithHighCholesterol": [
+        "1",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithPhysicalHealthNotGood": [
+        "3",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithStroke": [
+        "3_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_BingeDrinking": [
+        "1_2_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_PhysicalInactivity": [
+        "3",
+        "1_2_3_4"
+      ],
+      "Percent_Person_ReceivedAnnualCheckup": [
+        "4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithCancerExcludingSkinCancer": [
+        "0_1_3_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithDiabetes": [
+        "3",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithMentalHealthNotGood": [
+        "none",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithCoronaryHeartDisease": [
+        "1_2_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithHighBloodPressure": [
+        "1_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_ReceivedCholesterolScreening": [
+        "1",
+        "1_2_3_4"
+      ],
+      "Percent_Person_ReceivedDentalVisit": [
+        "3",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithAsthma": [
+        "none",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithChronicKidneyDisease": [
+        "1_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithArthritis": [
+        "1_2_3_4"
+      ],
+      "Percent_Person_WithChronicObstructivePulmonaryDisease": [
+        "3",
+        "1_2_3_4"
+      ],
+      "Percent_Person_18OrMoreYears_WithHighBloodPressure_ReceivedTakingBloodPressureMedication": [
+        "1_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_Obesity": [
+        "1_3_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_SleepLessThan7Hours": [
+        "3_4",
+        "1_2_3_4"
+      ],
+      "Percent_Person_Smoking": [
+        "3",
+        "1_2_3_4"
+      ],
+      "Median_Income_Household": [
+        "3",
+        "1_2_3_4"
+      ],
+      "Median_HomeValue_HousingUnit_OccupiedHousingUnit_OwnerOccupied": [
+        "none",
+        "1_2_3_4"
+      ],
+      "night_lights_log10": [
+        "1",
+        "1_2_3_4"
+      ],
+      "population_density_log10": [
+        "0_1",
+        "1_2_3_4"
+      ],
+      "poverty_rate": [
+        "none",
+        "1_2_3_4"
+      ],
+      "tree_cover": [
+        "0_1",
+        "1_2_3_4"
+      ],
+      "elevation": [
+        "1_2_4",
+        "1_2_3_4"
+      ]
+    },
+    "modality_names_per_target": {
+      "Percent_Person_WithHighCholesterol": [
+        "RS+OSM+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithPhysicalHealthNotGood": [
+        "SVI+RS+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithStroke": [
+        "SVI+RS+Coords",
+        "Coords"
+      ],
+      "Percent_Person_BingeDrinking": [
+        "OSM+Coords",
+        "Coords"
+      ],
+      "Percent_Person_PhysicalInactivity": [
+        "SVI+RS+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_ReceivedAnnualCheckup": [
+        "SVI+RS+OSM+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithCancerExcludingSkinCancer": [
+        "RS",
+        "Coords"
+      ],
+      "Percent_Person_WithDiabetes": [
+        "SVI+RS+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithMentalHealthNotGood": [
+        "SVI+RS+OSM+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithCoronaryHeartDisease": [
+        "OSM+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithHighBloodPressure": [
+        "RS+OSM+Coords",
+        "Coords"
+      ],
+      "Percent_Person_ReceivedCholesterolScreening": [
+        "RS+OSM+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_ReceivedDentalVisit": [
+        "SVI+RS+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithAsthma": [
+        "SVI+RS+OSM+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithChronicKidneyDisease": [
+        "RS+OSM+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithArthritis": [
+        "Coords"
+      ],
+      "Percent_Person_WithChronicObstructivePulmonaryDisease": [
+        "SVI+RS+POI+Coords",
+        "Coords"
+      ],
+      "Percent_Person_18OrMoreYears_WithHighBloodPressure_ReceivedTakingBloodPressureMedication": [
+        "RS+OSM+Coords",
+        "Coords"
+      ],
+      "Percent_Person_Obesity": [
+        "RS+Coords",
+        "Coords"
+      ],
+      "Percent_Person_SleepLessThan7Hours": [
+        "SVI+RS+Coords",
+        "Coords"
+      ],
+      "Percent_Person_Smoking": [
+        "SVI+RS+POI+Coords",
+        "Coords"
+      ],
+      "Median_Income_Household": [
+        "SVI+RS+POI+Coords",
+        "Coords"
+      ],
+      "Median_HomeValue_HousingUnit_OccupiedHousingUnit_OwnerOccupied": [
+        "SVI+RS+OSM+POI+Coords",
+        "Coords"
+      ],
+      "night_lights_log10": [
+        "RS+OSM+POI+Coords",
+        "Coords"
+      ],
+      "population_density_log10": [
+        "RS+OSM+POI",
+        "Coords"
+      ],
+      "poverty_rate": [
+        "SVI+RS+OSM+POI+Coords",
+        "Coords"
+      ],
+      "tree_cover": [
+        "RS+OSM+POI",
+        "Coords"
+      ],
+      "elevation": [
+        "OSM+Coords",
+        "Coords"
+      ]
+    }
+  }
+}

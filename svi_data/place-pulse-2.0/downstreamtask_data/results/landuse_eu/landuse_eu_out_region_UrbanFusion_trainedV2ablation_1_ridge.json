@@ -1,0 +1,44 @@
+{
+    "UrbanFusionV2ablation_1": {
+        "date": "2025-07-31_00-07-30",
+        "modalities": [
+            "0",
+            "0_1",
+            "0_2",
+            "0_3",
+            "0_4",
+            "0_1_2",
+            "0_1_3",
+            "0_1_4",
+            "0_2_3",
+            "0_2_4",
+            "0_3_4",
+            "0_1_2_3",
+            "0_1_2_4",
+            "0_1_3_4",
+            "0_2_3_4"
+        ],
+        "modalities_name": [
+            "SVI+RS+OSM+POI",
+            "RS+OSM+POI",
+            "SVI+OSM+POI",
+            "SVI+RS+POI",
+            "SVI+RS+OSM",
+            "OSM+POI",
+            "RS+POI",
+            "RS+OSM",
+            "SVI+POI",
+            "SVI+OSM",
+            "SVI+RS",
+            "POI",
+            "OSM",
+            "RS",
+            "SVI"
+        ],
+        "epoch": 400,
+        "data_loaders": [1]
+    }
+}
+
+
+       

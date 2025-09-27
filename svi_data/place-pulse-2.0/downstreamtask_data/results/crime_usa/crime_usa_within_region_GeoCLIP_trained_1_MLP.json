@@ -1,0 +1,9 @@
+{
+    "GeoCLIPtrained_1": {
+        "date": "2025-06-19_10-12-35",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 400,
+        "data_loaders": [0]
+    }
+}

@@ -1,0 +1,26 @@
+_target_: srl.data.place_pulse2.PlacePulse2DatasetModule
+dataset_name: "PlacePulse2"
+locations_path: "${paths.data_dir}/svi_data/place-pulse-2.0/locations.tsv"
+places_path: "${paths.data_dir}/svi_data/place-pulse-2.0/places.tsv"
+available_images_path: "${paths.data_dir}/svi_data/place-pulse-2.0/image_file_list.txt"
+SVI_path: "${paths.h5_dir}/svi_data/place-pulse-2.0/SVI"
+sentinel2_path: "${paths.h5_dir}/svi_data/place-pulse-2.0/sentinel2"
+POI_path: "${paths.data_dir}/svi_data/place-pulse-2.0/POIs_Texts/texts_15neigh_200m.csv"
+OSM_basemap_path: "${paths.h5_dir}/svi_data/place-pulse-2.0/OSM_basemap"
+batch_size: 16
+num_workers: 0
+zoom_levels: [15, 16, 17]
+out_region_cities: ["New York"]
+in_region_split: 0.2
+pin_memory: false
+persistent_workers: false
+seed_split: 42
+transform_SVI: null
+transform_sentinel2: null
+transform_OSM: null
+return_filename: false
+return_coords: false
+filter_available_images: false
+h5_indices_path: "${paths.data_dir}/svi_data/place-pulse-2.0/h5_index.csv"
+precomputed_h5_path: null
+modalities: ["coords", "SVI", "sentinel2", "OSM", "POI"]

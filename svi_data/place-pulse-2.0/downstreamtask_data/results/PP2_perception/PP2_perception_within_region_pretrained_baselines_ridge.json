@@ -1,0 +1,44 @@
+{
+    "SatCLIPL10pretrained_1": {
+        "date": "2025-06-18_21-43-54",
+        "modalities": ["0","1","2"],
+        "modalities_name": ["Coords", "RS", "RS+Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "SatCLIPL40pretrained_1": {
+        "date": "2025-06-18_21-44-07",
+        "modalities": ["0","1","2"],
+        "modalities_name": ["Coords", "RS", "RS+Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "GeoCLIPpretrained_1": {
+        "date": "2025-06-18_22-49-18",
+        "modalities": ["0","1","2"],
+        "modalities_name": ["Coords", "SV", "SV+Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "CSPfmowpretrained_1": {
+        "date": "2025-06-18_21-16-03",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "CSPiNat2018pretrained_1": {
+        "date": "2025-06-18_21-16-52",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "Coordinates": {
+        "date": null,
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    }
+}

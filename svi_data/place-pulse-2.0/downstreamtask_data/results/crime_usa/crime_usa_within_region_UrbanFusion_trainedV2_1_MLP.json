@@ -1,0 +1,18 @@
+{
+    "UrbanFusionV2_1": {
+        "date": "2025-07-23_13-41-49",
+        "modalities": [
+            "1_2_4",
+            "1_2_3_4"
+        ],
+        "modalities_name": [
+            "OSM+Coords",
+            "Coords"
+        ],
+        "epoch": 400,
+        "data_loaders": [0]
+    }
+}
+
+
+       

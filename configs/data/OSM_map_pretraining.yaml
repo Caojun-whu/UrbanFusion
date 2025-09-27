@@ -1,0 +1,22 @@
+_target_: srl.data.OSM_map_pretraining.OSMDatasetModule
+root_dir: "${paths.h5_dir}/svi_data/place-pulse-2.0/OSM_basemap"
+locations_path: "${paths.data_dir}/svi_data/place-pulse-2.0/locations.tsv"
+places_path: "${paths.data_dir}/svi_data/place-pulse-2.0/places.tsv"
+available_images_path: "${paths.data_dir}/svi_data/place-pulse-2.0/image_file_list.txt"
+out_region_cities: [
+    'Cape Town',
+    'Singapore',
+    'Rio De Janeiro',
+    'Paris',
+    'Milan',
+    'New York',
+    'Sydney'
+]
+in_region_split: 0.2
+zoom_levels: [15, 16, 17]
+buffer_distances: [600, 300, 150]
+pin_memory: true
+persistent_workers: true
+seed_split: 42
+batch_size: 32
+num_workers: 4

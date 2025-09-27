@@ -1,0 +1,14 @@
+{
+    "UrbanFusionV2_1": {
+        "date": "2025-07-23_13-41-49",
+        "modalities": [
+            "0_3_4"
+        ],
+        "modalities_name": [
+            "SVI+RS"
+        ],
+        "epoch": 400,
+        "data_loaders": [1]
+    }
+}
+       

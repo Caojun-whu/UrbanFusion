@@ -1,0 +1,16 @@
+{
+    "SatCLIPL10trained_1": {
+        "date": "2025-06-19_10-16-46",
+        "modalities": ["0", "2"],
+        "modalities_name": ["Coords", "RS+Coords"],
+        "epoch": 400,
+        "data_loaders": [0]
+    },
+    "SatCLIPL40trained_1": {
+        "date": "2025-06-19_10-14-44",
+        "modalities": ["0", "2"],
+        "modalities_name": ["Coords", "RS+Coords"],
+        "epoch": 400,
+        "data_loaders": [0]
+    }
+}

@@ -1,0 +1,225 @@
+{
+  "GeoCLIPtrained_1": {
+    "date": "2025-06-19_10-12-35",
+    "epoch": 400,
+    "data_loaders": [
+      0
+    ],
+    "modality_ids": {
+      "Percent_Person_WithHighCholesterol": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithPhysicalHealthNotGood": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithStroke": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_BingeDrinking": [
+        "0"
+      ],
+      "Percent_Person_PhysicalInactivity": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_ReceivedAnnualCheckup": [
+        "0"
+      ],
+      "Percent_Person_WithCancerExcludingSkinCancer": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithDiabetes": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithMentalHealthNotGood": [
+        "0"
+      ],
+      "Percent_Person_WithCoronaryHeartDisease": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithHighBloodPressure": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_ReceivedCholesterolScreening": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_ReceivedDentalVisit": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithAsthma": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithChronicKidneyDisease": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_WithArthritis": [
+        "0"
+      ],
+      "Percent_Person_WithChronicObstructivePulmonaryDisease": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_18OrMoreYears_WithHighBloodPressure_ReceivedTakingBloodPressureMedication": [
+        "0"
+      ],
+      "Percent_Person_Obesity": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_SleepLessThan7Hours": [
+        "2",
+        "0"
+      ],
+      "Percent_Person_Smoking": [
+        "2",
+        "0"
+      ],
+      "Median_Income_Household": [
+        "2",
+        "0"
+      ],
+      "Median_HomeValue_HousingUnit_OccupiedHousingUnit_OwnerOccupied": [
+        "2",
+        "0"
+      ],
+      "night_lights_log10": [
+        "2",
+        "0"
+      ],
+      "population_density_log10": [
+        "1",
+        "0"
+      ],
+      "poverty_rate": [
+        "2",
+        "0"
+      ],
+      "tree_cover": [
+        "2",
+        "0"
+      ],
+      "elevation": [
+        "0"
+      ]
+    },
+    "modality_names_per_target": {
+      "Percent_Person_WithHighCholesterol": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithPhysicalHealthNotGood": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithStroke": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_BingeDrinking": [
+        "Coords"
+      ],
+      "Percent_Person_PhysicalInactivity": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_ReceivedAnnualCheckup": [
+        "Coords"
+      ],
+      "Percent_Person_WithCancerExcludingSkinCancer": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithDiabetes": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithMentalHealthNotGood": [
+        "Coords"
+      ],
+      "Percent_Person_WithCoronaryHeartDisease": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithHighBloodPressure": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_ReceivedCholesterolScreening": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_ReceivedDentalVisit": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithAsthma": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithChronicKidneyDisease": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_WithArthritis": [
+        "Coords"
+      ],
+      "Percent_Person_WithChronicObstructivePulmonaryDisease": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_18OrMoreYears_WithHighBloodPressure_ReceivedTakingBloodPressureMedication": [
+        "Coords"
+      ],
+      "Percent_Person_Obesity": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_SleepLessThan7Hours": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Percent_Person_Smoking": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Median_Income_Household": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "Median_HomeValue_HousingUnit_OccupiedHousingUnit_OwnerOccupied": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "night_lights_log10": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "population_density_log10": [
+        "SV",
+        "Coords"
+      ],
+      "poverty_rate": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "tree_cover": [
+        "SV+Coords",
+        "Coords"
+      ],
+      "elevation": [
+        "Coords"
+      ]
+    }
+  }
+}

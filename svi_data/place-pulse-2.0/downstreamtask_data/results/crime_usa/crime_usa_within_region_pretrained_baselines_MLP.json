@@ -1,0 +1,65 @@
+{
+    "GPS2Vectagpretrained_1": {
+        "date": "2025-06-21_15-21-27",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "GPS2Vecvisualpretrained_1": {
+        "date": "2025-06-21_15-20-56",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "PDFMpretrained_1": {
+        "date": "2025-06-18_23-12-46",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "SatCLIPL10pretrained_1": {
+        "date": "2025-06-18_21-43-54",
+        "modalities": ["0", "2"],
+        "modalities_name": ["Coords", "RS+Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "SatCLIPL40pretrained_1": {
+        "date": "2025-06-18_21-44-07",
+        "modalities": ["0", "2"],
+        "modalities_name": ["Coords", "RS+Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "GeoCLIPpretrained_1": {
+        "date": "2025-06-18_22-49-18",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "CSPfmowpretrained_1": {
+        "date": "2025-06-18_21-16-03",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "CSPiNat2018pretrained_1": {
+        "date": "2025-06-18_21-16-52",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    },
+    "Coordinates": {
+        "date": null,
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    }
+}

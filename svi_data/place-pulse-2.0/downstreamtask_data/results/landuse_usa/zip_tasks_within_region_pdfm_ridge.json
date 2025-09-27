@@ -1,0 +1,9 @@
+{
+    "PDFMpretrained_1": {
+        "date": "2025-06-18_23-12-46",
+        "modalities": ["0"],
+        "modalities_name": ["Coords"],
+        "epoch": 0,
+        "data_loaders": [0]
+    }
+}

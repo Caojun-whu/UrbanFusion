@@ -1,0 +1,34 @@
+{
+    "GPS2Vectagpretrained_1": {
+        "date": "2025-06-21_15-21-27",
+        "epoch": 0
+    },
+    "GPS2Vecvisualpretrained_1": {
+        "date": "2025-06-21_15-20-56",
+        "epoch": 0
+    },
+    "SatCLIPL10pretrained_1": {
+        "date": "2025-06-18_21-43-54",
+        "epoch": 0
+    },
+    "SatCLIPL40pretrained_1": {
+        "date": "2025-06-18_21-44-07",
+        "epoch": 0
+    },
+    "GeoCLIPpretrained_1": {
+        "date": "2025-06-18_22-49-18",
+        "epoch": 0
+    },
+    "CSPfmowpretrained_1": {
+        "date": "2025-06-18_21-16-03",
+        "epoch": 0
+    },
+    "CSPiNat2018pretrained_1": {
+        "date": "2025-06-18_21-16-52",
+        "epoch": 0
+    },
+    "Coordinates": {
+        "date": null,
+        "epoch": 0
+    }
+}
