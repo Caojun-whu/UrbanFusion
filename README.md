@@ -8,7 +8,7 @@ ______________________________________________________________________
 <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
 <a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a><br>
-[![Paper](http://img.shields.io/badge/paper-arxiv.xxxx.xxxx-B31B1B.svg)](https://arxiv.org/abs/)
+[![Paper](http://img.shields.io/badge/paper-arxiv.2510.13774-B31B1B.svg)](https://arxiv.org/pdf/2510.13774)
 <!--[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020)-->
 
 </div>
@@ -324,7 +324,7 @@ If you find our work useful or interesting or use our code, please cite our pape
   title   = {UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations},
   author  = {Dominik J. Mühlematter and Lin Che and Ye Hong and Martin Raubal and Nina Wiedemann},
   year    = {2025},
-  journal = {arXiv preprint arXiv:xxxx.xxxxx}
+  journal = {arXiv preprint arXiv:2510.13774}
 }
 
 ```
