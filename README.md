@@ -1,25 +1,25 @@
 ______________________________________________________________________
-
 <div align="center">
 
 # UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations
 
+[![ICML 2026](https://img.shields.io/badge/Accepted%20at-ICML%202026-blue)]()
+[![Paper](https://img.shields.io/badge/paper-arXiv%3A2510.13774-B31B1B.svg)](https://arxiv.org/abs/2510.13774)
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-<a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
+<a href="https://lightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
-<a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a><br>
-[![Paper](http://img.shields.io/badge/paper-arxiv.2510.13774-B31B1B.svg)](https://arxiv.org/pdf/2510.13774)
-<!--[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/paper/2020)-->
 
-</div>
-Dominik J. Mühlematter¹, Lin Che¹, Ye Hong¹, Martin Raubal¹, Nina Wiedemann¹²  
+**Dominik J. Mühlematter¹, Lin Che¹, Ye Hong¹, Martin Raubal¹, Nina Wiedemann¹²**  
+Accepted at the International Conference on Machine Learning (ICML) 2026
 
 ¹ ETH Zürich  
 ² Intel Corporation
+</div>
+
 ## Abstract
 <img src="assets/architecture_V1.png" alt="Method overview">
 
-Forecasting urban phenomena such as housing prices and public health indicators requires the effective integration of various geospatial data. Current methods primarily utilize task-specific models, while recent foundation models for spatial representations often support only limited modalities and lack multimodal fusion capabilities. To overcome these challenges, we present UrbanFusion, a Geo-Foundation Model (GeoFM) that features Stochastic Multimodal Fusion (SMF). The framework employs modality-specific encoders to process different types of inputs, including street view imagery, remote sensing data, cartographic maps, and points of interest (POIs) data. These multimodal inputs are integrated via a Transformer-based fusion module that learns unified representations. An extensive evaluation across 41 tasks in 56 cities worldwide demonstrates UrbanFusion’s strong generalization and predictive performance compared to state-of-the-art GeoAI models. Specifically, it 1) outperforms prior foundation models on location-encoding, 2) allows multimodal input during inference, and 3) generalizes well to regions unseen during training. UrbanFusion can flexibly utilize any subset of available modalities for a given location during both pretraining and inference, enabling broad applicability across diverse data availability scenarios.
+Forecasting urban phenomena such as housing prices and public health indicators requires the effective integration of various geospatial data. Current methods primarily utilize task-specific models, while recent generic models for spatial representations often support only limited modalities and lack multimodal fusion capabilities. To overcome these challenges, we present UrbanFusion, a spatial representation model that features Stochastic Multimodal Fusion (SMF). The framework employs modality-specific encoders to process different types of inputs, including street view imagery, remote sensing data, cartographic maps, and points of interest (POIs) data. These multimodal inputs are integrated via a Transformer-based fusion module that learns unified representations. An extensive evaluation across 41 tasks in 56 cities worldwide demonstrates UrbanFusion’s strong generalization and predictive performance compared to state-of-the-art GeoAI models. Specifically, it 1) outperforms prior models on location-encoding, 2) allows multimodal input during inference, and 3) generalizes well to regions unseen during training. UrbanFusion can flexibly utilize any subset of available modalities for a given location during both pretraining and inference, enabling broad applicability across diverse data availability scenarios.
 
 ## Installation
 #### Pip
@@ -320,11 +320,11 @@ Further instructions for evaluating downstream tasks are provided in the relevan
 ## Citation
 If you find our work useful or interesting or use our code, please cite our paper as follows
 ```latex
-@article{muehlematter2025urbanfusion,
-  title   = {UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations},
-  author  = {Dominik J. Mühlematter and Lin Che and Ye Hong and Martin Raubal and Nina Wiedemann},
-  year    = {2025},
-  journal = {arXiv preprint arXiv:2510.13774}
+@inproceedings{muehlematter2026urbanfusion,
+  title     = {UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations},
+  author    = {M{\"u}hlematter, Dominik J. and Che, Lin and Hong, Ye and Raubal, Martin and Wiedemann, Nina},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2026},
 }
 
 ```
